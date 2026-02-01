@@ -1,0 +1,139 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "data",
+						"type": "string"
+					}
+				],
+				"name": "Sign_Message",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "data",
+						"type": "string"
+					}
+				],
+				"name": "hash",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "all_bytes",
+						"type": "bytes"
+					}
+				],
+				"name": "increment_bytes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "data",
+						"type": "string"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"Sign_Message(string)": {
+					"params": {
+						"data": "the original message"
+					},
+					"returns": {
+						"_0": "a signed message of the *digest*"
+					}
+				},
+				"hash(string)": {
+					"params": {
+						"data": "The message to be hashed"
+					},
+					"returns": {
+						"_0": "The hash value, or message digest, of the input"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RSA.sol": "RSA"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RSA.sol": {
+			"keccak256": "0xa39b4e0cb8c700735d639821943103496158d57711eff428adbfa812afd89e93",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://102fd0d75c2b03b87881b7e27b6ef74a1f05cf18ee92f65e89b8f0f6a6e99a88",
+				"dweb:/ipfs/Qmbx3HnQcHuBUFpioDc6hXF8DsrkHXhVQ8CosZrX5gx3kb"
+			]
+		}
+	},
+	"version": 1
+}
